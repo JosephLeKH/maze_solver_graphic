@@ -15,25 +15,6 @@ This project implements a program to solve mazes using **Breadth-First Search (B
 
 ---
 
-## File Structure
-
-### Source Files
-- **`maze.cpp`**: Contains the main logic for solving mazes, including:
-  - Pathfinding algorithms (BFS and DFS).
-  - Helper functions for validating paths and generating valid moves.
-- **`mazegraphics.cpp`**: Implements the graphical display of the maze and solution path.
-- **`main.cpp`**: Entry point for the program, reads maze files, and runs the solvers.
-
-### Resource Files
-- **Maze files (`res/*.maze`):** Define the maze structure. Example:
-  ```
-  @---@
-  -@-@-
-  @---@
-  ```
-
----
-
 ## How to Use
 
 ### Prerequisites
@@ -64,6 +45,34 @@ This project implements a program to solve mazes using **Breadth-First Search (B
    ```cpp
    string mazeFile = "res/your-maze-file.maze";
    ```
+
+---
+
+## Screenshots
+### Example In-Progress BFS
+![Example In-Progress BFS](appScreenshots/inprogress_bfs.png)
+
+### Example Solved DFS
+![Example Solved DFS](appScreenshots/finished_dfs.png)
+
+---
+
+## File Structure
+
+### Source Files
+- **`maze.cpp`**: Contains the main logic for solving mazes, including:
+  - Pathfinding algorithms (BFS and DFS).
+  - Helper functions for validating paths and generating valid moves.
+- **`mazegraphics.cpp`**: Implements the graphical display of the maze and solution path.
+- **`main.cpp`**: Entry point for the program, reads maze files, and runs the solvers.
+
+### Resource Files
+- **Maze files (`res/*.maze`):** Define the maze structure. Example:
+  ```
+  @---@
+  -@-@-
+  @---@
+  ```
 
 ---
 
